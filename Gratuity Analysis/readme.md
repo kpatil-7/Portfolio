@@ -2,8 +2,8 @@
 This repository contains code for performing Exploratory Data Analysis (EDA) and building a Random Forest Regression model on a given dataset. The dataset consists of information related to restaurant bills and tips.
 
 ## Dataset
-
-The dataset (`tips.csv`) includes the following columns:
+The dataset was taken from Kaggle and can be found here: https://www.kaggle.com/datasets/jsphyg/tipping
+It includes the following columns:
 
 - `total_bill`: Total bill amount in dollars
 - `tip`: Tip amount in dollars
