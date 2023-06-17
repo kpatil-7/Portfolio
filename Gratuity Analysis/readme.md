@@ -1,5 +1,4 @@
-# Exploratory Data Analysis (EDA) and Random Forest Regression
-
+# Gratutiy Analysis 
 This repository contains code for performing Exploratory Data Analysis (EDA) and building a Random Forest Regression model on a given dataset. The dataset consists of information related to restaurant bills and tips.
 
 ## Dataset
