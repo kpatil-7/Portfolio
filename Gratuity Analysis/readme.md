@@ -3,7 +3,7 @@ This repository contains code for performing Exploratory Data Analysis (EDA) and
 
 ## Dataset
 
-The dataset (`your_dataset.csv`) includes the following columns:
+The dataset (`tips.csv`) includes the following columns:
 
 - `total_bill`: Total bill amount in dollars
 - `tip`: Tip amount in dollars
