@@ -1,6 +1,3 @@
-Sure! Here's a sample GitHub README file for the provided code:
-
-```
 # Exploratory Data Analysis (EDA) and Random Forest Regression
 
 This repository contains code for performing Exploratory Data Analysis (EDA) and building a Random Forest Regression model on a given dataset. The dataset consists of information related to restaurant bills and tips.
@@ -50,8 +47,3 @@ The code in `main.py` demonstrates how to build a Random Forest Regression model
 5. Run `main.py` to build and evaluate the Random Forest Regression model.
 
 Feel free to modify the code and dataset according to your needs.
-
-Happy exploring and modeling!
-```
-
-You can use this README file as a starting point and customize it further based on your specific requirements and additional information about the project.
