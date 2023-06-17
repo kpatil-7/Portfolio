@@ -3,7 +3,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Load the dataset
-df = pd.read_csv('your_dataset.csv')
+df = pd.read_csv('tips.csv')
 
 # Display the first few rows of the dataset
 print(df.head())
