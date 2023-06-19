@@ -1,4 +1,4 @@
-# Readme: Text Classification with Feature Engineering
+# Understanding Location Bias on Fake news Datasets of Twitter
 
 ## Introduction
 This repository contains source code for a text classification task using feature engineering techniques. The goal is to build a machine learning model that can classify text documents into appropriate categories. In this project, we focus on implementing the Bag of Words model and applying feature engineering to improve classification accuracy.
