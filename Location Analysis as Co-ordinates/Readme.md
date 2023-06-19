@@ -3,6 +3,8 @@
 ## Introduction
 This repository contains source code for a text classification task using feature engineering techniques. The goal is to build a machine learning model that can classify text documents into appropriate categories. In this project, we focus on implementing the Bag of Words model and applying feature engineering to improve classification accuracy.
 
+Slides can be found here: https://prezi.com/view/EJILMGUX7Q26IzS1SbjC/
+
 The dataset used for this research is provided by Prof. Kai Shu of Illinois Tech. The dataset consists of two categories of gossip news: celebrity gossip and political gossip. The primary objective is to explore location biases in fake news on Twitter by considering two approaches. First, we analyze the amount of fake news originating from specific geographical coordinates. Second, we investigate the likelihood of a tweet being fake when it mentions a particular location.
 
 ## Dataset Splitting (Task 1)
