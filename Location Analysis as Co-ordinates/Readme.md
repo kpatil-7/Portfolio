@@ -1,30 +1,42 @@
-# Understanding Location Bias on Fake news Datasets of Twitter
+# Location Biases on Fake News Twitter Datasets
 
-## Introduction
-This repository contains source code for a text classification task using feature engineering techniques. The goal is to build a machine learning model that can classify text documents into appropriate categories. In this project, we focus on implementing the Bag of Words model and applying feature engineering to improve classification accuracy.
+This repository contains research findings on location biases in fake news Twitter datasets. The dataset used in this research is obtained from Prof. Kai Shu of Illinois Tech. The dataset consists of celebrity gossip news and political gossip news.
 
-Slides can be found here: https://prezi.com/view/EJILMGUX7Q26IzS1SbjC/
+## Research Objective
 
-The dataset used for this research is provided by Prof. Kai Shu of Illinois Tech. The dataset consists of two categories of gossip news: celebrity gossip and political gossip. The primary objective is to explore location biases in fake news on Twitter by considering two approaches. First, we analyze the amount of fake news originating from specific geographical coordinates. Second, we investigate the likelihood of a tweet being fake when it mentions a particular location.
+The objective of this research is to investigate location biases in fake news tweets. The research explores two aspects of location:
 
-## Dataset Splitting (Task 1)
-The initial step of the project involves splitting the dataset into training and testing sets. The `train_test_split` function from the `sklearn.model_selection` module is used for this purpose. The code reads the 'primary.csv' file and assigns the 'text' column to variable X and the 'label' column to variable y. The data is then split into 70% for training and 30% for testing. Similarly, a secondary dataset ('secondary.csv') is split for testing purposes.
+1. **Location-based Fake News Distribution**: The research examines the distribution of fake news based on the geographical coordinates associated with tweets. It analyzes the amount of fake news originating from different locations.
 
-## Bag of Words Model (Task 2)
-In Task 2, we implement the Bag of Words model, which converts text data into numerical representations suitable for machine learning models. The code leverages various libraries such as NLTK for text preprocessing and sklearn for feature extraction. The dataset is preprocessed using tokenization, stopword removal, stemming, and lemmatization. The CountVectorizer and TfidfTransformer are used to transform the text data into numeric features. Logistic Regression is employed as the classification model. The accuracy of the baseline model is evaluated using the accuracy_score metric.
+2. **Location Mention and Fake News**: The research explores the correlation between the mention of location in tweets and the likelihood of the tweet being fake. It investigates whether the presence of location information in a tweet can be an indicator of fake news.
 
-## Baseline Model Accuracy Calculation (Task 3)
-In Task 3, we calculate the accuracy of the baseline model after applying the Bag of Words model. The CountVectorizer is fitted on the training data, and a Logistic Regression model is trained on the transformed data. The model's performance is assessed by predicting labels for the testing data and calculating the accuracy using the accuracy_score function.
+## Methodology and Findings
 
-## Feature Engineering (Task 4)
-Task 4 involves feature engineering, which aims to improve the classification performance by incorporating additional features. Three new features are defined: feature_function1, feature_function2, and feature_function3. These functions extract specific patterns or keywords from the text and return binary values indicating their presence. The new features are added to the original document representation using numpy's insert function.
+The research employs two approaches to analyze the location biases in fake news:
 
-## Accuracy Calculation after Feature Engineering (Task 5)
-In Task 5, we evaluate the accuracy of the logistic regression model after incorporating the engineered features. The CountVectorizer is applied to the training data, and the new feature arrays are inserted into the document representation. The Logistic Regression model is then trained on the transformed data, and predictions are made for the testing data. The accuracy of the model is calculated using the accuracy_score function.
+1. **Geographical Coordinates**: The study analyzes the distribution of fake news based on the geographical coordinates of the tweets. It investigates if certain locations are more prone to generating fake news. The findings suggest the presence of location biases in fake news distribution, although the biases are not statistically significant.
 
-## Conclusion
-In this research, we investigated location biases in fake news on Twitter using two different approaches. The findings indicate the presence of biases, although not significant. The application of feature engineering techniques, such as incorporating specific patterns and keywords, led to an improvement in the classification accuracy. By leveraging the Bag of Words model and implementing feature engineering, we demonstrated the potential to enhance the effectiveness of text classification models.
+2. **BERT and NER-BERT**: The research applies BERT (Bidirectional Encoder Representations from Transformers) and NER-BERT (Named Entity Recognition BERT) models to identify fake tweets when the location is hidden. The models are trained on the dataset to predict the likelihood of a tweet being fake without explicitly mentioning the location. The study compares the performance of these models in identifying fake news and assesses their effectiveness in mitigating location biases. The findings indicate that the models show promising results in identifying fake tweets, even when location information is concealed.
 
-We hope that this research provides insights into the influence of location biases on fake news and serves as a valuable resource for future studies in this domain.
+The research contributes to a better understanding of location biases in fake news dissemination and explores the potential of machine learning models in detecting fake news without relying on explicit location mentions.
 
-Please note that the code provided assumes the availability of the dataset files ('primary.csv' and 'secondary.csv') and the necessary package installations. Adjustments to file paths and installations may be required based on the specific setup.
+## Repository Structure
+
+- `data/`: This directory contains the dataset obtained from Prof. Kai Shu of Illinois Tech. The dataset consists of celebrity gossip news and political gossip news tweets.
+
+- `notebooks/`: This directory includes Jupyter notebooks detailing the research methodology, data analysis, and model training. The notebooks provide step-by-step explanations of the experiments conducted and the results obtained.
+
+- `results/`: This directory contains the research findings, including statistical analyses, visualizations, and conclusions drawn from the experiments.
+
+## Citation
+
+If you use this research or the dataset provided by Prof. Kai Shu of Illinois Tech, please cite the appropriate sources and give credit to the original authors.
+
+## Contributions
+
+Contributions to this research project are welcome. If you have any suggestions, improvements, or additional findings related to location biases in fake news Twitter datasets, please open an issue or submit a pull request on the GitHub repository.
+
+## License
+
+The research findings and code in this repository are licensed under the [MIT License](LICENSE). Feel free to use and modify them for academic or research purposes.
+
