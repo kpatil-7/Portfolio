@@ -23,9 +23,10 @@ The following libraries are required to run the code:
 
 You can install these dependencies using pip:
 
-```shell
 pip install pandas numpy matplotlib seaborn scikit-learn geopandas
-Code Overview
+
+
+## Code Overview
 The code performs the following tasks:
 
 Imports the necessary libraries and sets up the plotting environment.
@@ -35,4 +36,5 @@ Preprocesses the dataset by dropping duplicates and handling missing values.
 Visualizes the dataset using bar plots and histograms.
 Performs geospatial analysis using the GeoPandas library.
 Plots the geospatial data on a map.
+
 Feel free to modify the code to suit your specific requirements.
