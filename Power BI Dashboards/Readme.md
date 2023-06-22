@@ -25,5 +25,3 @@ Stay Updated
 Keep an eye on this README file for updates as I continue to add new dashboards and enhance existing ones. You can also follow me on Twitter or LinkedIn for announcements and updates on my Power BI projects.
 
 Let's dive into the world of data visualization and make informed decisions with the help of Power BI dashboards. Enjoy exploring the visualizations and gaining insights from the data!
-
-![Power
