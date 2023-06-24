@@ -16,6 +16,14 @@ Interact with the Dashboards: Once the dashboards are loaded in Power BI Desktop
 ### 1. Popular Dog Breeds for Adoption
 This is where you can explore a diverse collection of dogs waiting to find their forever homes. This interactive dashboard provides insights into the male-female ratio, age distribution, breed characteristics, and compatibility with children and other pets like cats. With engaging visuals and comprehensive information, you can make informed decisions and discover the perfect furry companion. Find a dog that aligns with your preferences, lifestyle, and creates a harmonious environment in your home. Start your journey of adopting a lovable and loyal companion today!
 
+### 2. Amazon Purchases  
+I recently went through a major move, not just to a different city, but to a whole new country. As a result, I found myself needing to shop for almost everything, from essential items like a mattress and shower caddy to those late-night snacks. Since I had been focused on my master's degree, spending most of my time at school, I opted to order most of these items online and have them delivered to my new place. With the convenience of Amazon Prime, the process became much easier.
+
+However, when the end of the month arrived and I sat down to review my financial statements, I was taken aback. Did I really order that much stuff? It seemed hard to believe. To gain a better understanding of my spending habits, I decided to take matters into my own hands. I took the initiative to scrape and extract my own data, and then visualize it to see which categories accounted for the majority of my expenses and their corresponding percentages.
+
+####       Purpose of This Project
+The purpose of this GitHub repository is to showcase the data scraping and visualization project I embarked upon to gain insights into my own spending patterns. By examining the data, I aimed to identify which categories I frequented the most and determine the percentage of my expenses allocated to each category. The project involved utilizing various tools and techniques, including data scraping, data analysis, and data visualization. Through this project, I gained valuable insights into my spending habits and discovered opportunities for more informed financial decision-making.
+
 ## Contributing
 I welcome contributions to this repository. If you have ideas for new dashboards, improvements to existing dashboards, or additional data sources, feel free to get involved. Fork the repository, make your changes, and submit a pull request. Let's collaborate to create even more informative and visually appealing dashboards.
 
