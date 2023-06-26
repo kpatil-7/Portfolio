@@ -1,2 +1,5 @@
+# Mini Projects 
+This repository houses a collection of small projects, including various games. These projects are designed to provide entertainment and engage users in interactive experiences. Whether you're a fan of classic games or interested in exploring new concepts, this repository offers a range of options to suit different preferences. Each project is developed with the aim of providing a fun and enjoyable experience for users. Feel free to explore the games and discover new ways to entertain yourself with these mini projects.
 
-sddd
+## CEO Simulator
+This is a Python program that allows players to experience the challenges of managing a company. Through a series of random events and user choices, players must navigate the ups and downs of running a business. The objective is to make strategic decisions and maintain the company's status while aiming to avoid losing conditions. By testing their management skills, players can determine if they have what it takes to successfully guide a company to success.
