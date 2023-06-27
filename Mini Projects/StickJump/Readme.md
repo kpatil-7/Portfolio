@@ -1,4 +1,4 @@
-# Stick Game
+# StickJump
 
 This repository contains a simple Stick game developed using the Pygame library. The objective of the game is to control the stick and guide it safely across the screen without colliding with the moving bus or falling into the water.
 
