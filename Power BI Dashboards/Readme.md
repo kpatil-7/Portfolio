@@ -32,12 +32,13 @@ However, when the end of the month arrived and I sat down to review my financial
 #### Purpose of This Project
 The purpose of this GitHub repository is to showcase the data scraping and visualization project I embarked upon to gain insights into my own spending patterns. By examining the data, I aimed to identify which categories I frequented the most and determine the percentage of my expenses allocated to each category. The project involved utilizing various tools and techniques, including data scraping, data analysis, and data visualization. Through this project, I gained valuable insights into my spending habits and discovered opportunities for more informed financial decision-making.
 
+### 3. Netflix Show list
+As an avid Netflix enthusiast, I delved into an exciting project of creating a meticulously curated Netflix show list using the powerful capabilities of Power BI. This endeavor aimed to bring together my love for binge-watching and data visualization, resulting in an interactive and dynamic dashboard that would serve as a comprehensive repository of my favorite shows and movies. With the goal of sharing my passion for entertainment and providing valuable recommendations to fellow viewers, I embarked on the task of organizing and presenting my Netflix collection in an engaging and user-friendly format.
+
+#### Understanding Streaming and Viewership 
+The purpose of this project was twofold: to build a visually appealing and interactive Power BI dashboard that showcases my personal Netflix show list and to offer an insightful resource for others seeking captivating content recommendations. By leveraging the robust features of Power BI, I meticulously categorized the shows and movies based on various criteria such as genres, ratings, and release dates. Additionally, I included personalized reviews and ratings for each title, providing a deeper level of insight into the content. The dashboard's intuitive design allowed users to effortlessly navigate through the collection, search for specific titles, and explore new recommendations based on their preferences and viewing history. Ultimately, the project aimed to share my enthusiasm for Netflix and empower others to discover exciting shows and movies that align with their tastes, all through the immersive experience of a Power BI dashboard.
+
 ## Contributing
 I welcome contributions to this repository. If you have ideas for new dashboards, improvements to existing dashboards, or additional data sources, feel free to get involved. Fork the repository, make your changes, and submit a pull request. Let's collaborate to create even more informative and visually appealing dashboards.
 
 If you encounter any issues or have suggestions for improvements, please open an issue on the repository's issue tracker. Your feedback is valuable and helps me enhance the dashboards for all users.
-
-Stay Updated
-Keep an eye on this README file for updates as I continue to add new dashboards and enhance existing ones. You can also follow me on Twitter or LinkedIn for announcements and updates on my Power BI projects.
-
-Let's dive into the world of data visualization and make informed decisions with the help of Power BI dashboards. Enjoy exploring the visualizations and gaining insights from the data!
